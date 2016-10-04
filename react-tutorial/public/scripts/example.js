@@ -20,9 +20,9 @@ var Comment = React.createClass({
   render: function() {
     return (
       <div className="comment">
-        <h2 className="commentAuthor">
+        <h4 className="commentAuthor">
           {this.props.author}
-        </h2>
+        </h4>
         <span dangerouslySetInnerHTML={this.rawMarkup()} />
       </div>
     );
@@ -75,7 +75,7 @@ var CommentBox = React.createClass({
   render: function() {
     return (
       <div className="commentBox">
-        <h1>Comments</h1>
+        <h3>You</h3>
         <CommentForm onCommentSubmit={this.handleCommentSubmit} />
         <CommentList data={this.state.data} />
       </div>
@@ -94,7 +94,7 @@ var CommentList = React.createClass({
     });
     return (
       <div className="commentList">
-        {commentNodes}
+        {commentNodes.reverse()}
       </div>
     );
   }
@@ -142,6 +142,6 @@ var CommentForm = React.createClass({
 });
 
 ReactDOM.render(
-  <CommentBox url="/api/comments" pollInterval={2000} />,
+  <CommentBox url="/api/comments" pollInterval={5000} />,
   document.getElementById('content')
 );

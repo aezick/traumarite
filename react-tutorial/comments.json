@@ -10,38 +10,18 @@
         "author": "Paul O\u2019Shannessy"
     },
     {
-        "text": "*abc*",
-        "id": 1464988635157,
-        "author": "ben"
+        "text": "test",
+        "id": 1475563296237,
+        "author": "test"
     },
     {
-        "text": "*abc*",
-        "id": 1464988636500,
-        "author": "ben"
+        "text": "works",
+        "id": 1475563438009,
+        "author": "reverse"
     },
     {
-        "text": "<a href=\"javascript:alert(1)\">alert(1)</a>",
-        "id": 1464988717637,
-        "author": "evil"
-    },
-    {
-        "text": "<a href=\"javascript:alert(1)\">alert(1)</a>",
-        "id": 1464988717638,
-        "author": "evil"
-    },
-    {
-        "text": "<a href=\"javascript:alert(1)\">alert(1)</a>",
-        "id": 1464988717639,
-        "author": "evil"
-    },
-    {
-        "text": "<a href=\"javascript:alert(1)\">alert(1)</a>",
-        "id": 1464988717633,
-        "author": "evil"
-    },
-    {
-        "text": "<a href=\"javascript:alert(1)\">alert(1)</a>",
-        "id": 1464988717637,
-        "author": "evil"
+        "text": "<script>alert('hi');</script>",
+        "id": 1475563939681,
+        "author": "me"
     }
 ]
