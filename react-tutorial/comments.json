@@ -25,8 +25,23 @@
         "author": "evil"
     },
     {
-        "text": "hi",
-        "id": 1475559331394,
-        "author": "suck my nuts"
+        "text": "<a href=\"javascript:alert(1)\">alert(1)</a>",
+        "id": 1464988717638,
+        "author": "evil"
+    },
+    {
+        "text": "<a href=\"javascript:alert(1)\">alert(1)</a>",
+        "id": 1464988717639,
+        "author": "evil"
+    },
+    {
+        "text": "<a href=\"javascript:alert(1)\">alert(1)</a>",
+        "id": 1464988717633,
+        "author": "evil"
+    },
+    {
+        "text": "<a href=\"javascript:alert(1)\">alert(1)</a>",
+        "id": 1464988717637,
+        "author": "evil"
     }
 ]
