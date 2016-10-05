@@ -14,7 +14,8 @@ import time
 from flask import Flask, Response, request
 
 app = Flask(__name__, static_url_path='', static_folder='public')
-app.add_url_rule('/', 'root', lambda: app.send_static_file('index.html'))
+app.add_url_rule('/', 'landing', lambda: app.send_static_file('landing_page.html'))
+app.add_url_rule('/rite/', '/', lambda: app.send_static_file('index.html'))
 app.add_url_rule('/about/', 'about', lambda: app.send_static_file('about.html'))
 
 
