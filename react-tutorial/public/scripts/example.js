@@ -118,13 +118,15 @@ var CommentForm = React.createClass({
       <form className="commentForm" onSubmit={this.handleSubmit}>
         <div class="form-control">
           <input
+            id="reaction-box"
             type="text"
             placeholder="Say something..."
             value={this.state.text}
             onChange={this.handleTextChange}
           />
         </div>
-        <input type="submit" value="React" />
+        <p></p>
+        <input type="submit" value="Submit" />
       </form>
     );
   }

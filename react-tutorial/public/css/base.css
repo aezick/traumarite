@@ -103,3 +103,9 @@ ul {
    background-size: 100%;
 
 }
+
+#reaction-box {
+  height: 40px;
+  width: 450px;
+  font-size: 15px;
+}
