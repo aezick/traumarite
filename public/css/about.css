@@ -1,23 +1,59 @@
 #definition {
+	color: black;
 	border: solid;
 	border-width: 2px;
-	border-color: black;
+	border-color: white;
+	background-color: rgba(199, 204, 214, 0.4);
+	font-family: "Crimson Text", serif;
+	font-size: 17px;
+
 }
 
 #definition h6 {
+	color: black;
+	font-family: "Crimson Text", serif;
 	font-size: 22px;
 }
 
 #definition ol {
+	color: black;
+	font-family: "Crimson Text", serif;
 	padding-left: 10px;
+	font-size: 17px;
 }
 
 #definition hr {
 	border-width: 1px;
-	border-color: black;
+	border-color: white;
+	font-family: "Crimson Text", serif;
+	font-size: 17px;
 }
 
 #definition ul li {
+	color: black;
 	list-style-type: circle;
 	margin: 5px 0px;
+	font-family: "Crimson Text", serif;
+	font-size: 17px;
+}
+
+.navbar-style {
+  background: transparent;
+  border: none;
+}
+
+.intro-image {
+   background:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+                rgba(0,0,0,0.55) url('../static/eliza_curled.jpg');
+   background-size: 100%;
+}
+
+#crib {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#crib img {
+  height: 110px;
+  width: 110px;
 }
