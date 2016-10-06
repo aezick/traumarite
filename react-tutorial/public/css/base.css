@@ -58,10 +58,17 @@ ul {
   padding-left: 30px;
 }
 
-.gray-text {
+.gray-text, #comment_title {
+  text-align: center;
   color: #f7eded;
   font-family: "Crimson Text", serif;
   margin-bottom: 0px;
+}
+
+#comment_box {
+  color: black;
+  font-family: "Crimson Text", serif;
+  text-align: center;
 }
 
 .intro-image {
@@ -86,6 +93,13 @@ ul {
 }
 
 .navbar-style {
-  background: white;
+  background: transparent;
   border: none;
+}
+
+.index_background {
+  background:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+                rgba(0,0,0,0.55) url('../static/main.jpg');
+   background-size: 100%;
+
 }
