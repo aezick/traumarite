@@ -1,0 +1,23 @@
+#definition {
+	border: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+#definition h6 {
+	font-size: 22px;
+}
+
+#definition ol {
+	padding-left: 10px;
+}
+
+#definition hr {
+	border-width: 1px;
+	border-color: black;
+}
+
+#definition ul li {
+	list-style-type: circle;
+	margin: 5px 0px;
+}
