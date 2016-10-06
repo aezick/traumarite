@@ -1,6 +1,4 @@
 body {
-  background: #fff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.7;
   margin: 0;
@@ -8,16 +6,15 @@ body {
 }
 
 a {
-  color: #4183c4;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  border: none;
 }
 
 code {
-  background-color: #f8f8f8;
   border: 1px solid #ddd;
   border-radius: 3px;
   font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
@@ -27,6 +24,7 @@ code {
 }
 
 h1, h2, h3, h4 {
+  font-family: "Crimson Text", serif;
   font-weight: bold;
   margin: 0 0 15px;
   padding: 0;
@@ -50,10 +48,37 @@ h4 {
   font-size: 1.2em;
 }
 
+
 p, ul {
   margin: 15px 0;
+  font-size: 16px;
 }
 
 ul {
   padding-left: 30px;
+}
+
+.gray-text {
+  color: #f7eded;
+  font-family: "Crimson Text", serif;
+}
+
+.intro-image {
+   background:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+                rgba(0,0,0,0.55) url('../static/eliza_curled.jpg');
+   background-size: 100%;
+}
+
+.enter {
+  font-family: 'Roboto', sans-serif;
+  color: #1a6cef;
+}
+
+.enter a:hover {
+  text-decoration: none;
+}
+
+.navbar-style {
+  background: white;
+  border: none; 
 }
