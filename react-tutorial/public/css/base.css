@@ -61,6 +61,7 @@ ul {
 .gray-text {
   color: #f7eded;
   font-family: "Crimson Text", serif;
+  margin-bottom: 0px;
 }
 
 .intro-image {
@@ -74,11 +75,17 @@ ul {
   color: #1a6cef;
 }
 
-.enter a:hover {
+#crib {
   text-decoration: none;
+  background-color: transparent;
+}
+
+#crib img {
+  height: 110px;
+  width: 110px;
 }
 
 .navbar-style {
   background: white;
-  border: none; 
+  border: none;
 }
